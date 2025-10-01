@@ -50,7 +50,7 @@ const [signinUser,{isLoading}] = useSigninUserMutation()
         <div class="container justify-center px-5 mx-auto flex flex-wrap items-center">
           <div class="lg:w-2/6 sm:w-2/4  lg:md-0 m-auto rounded-lg p-8 flex flex-col w-full ">
             <h2 class="text-gray-900 text-3xl font-bold font-primary text-center mb-5">
-              Login
+              Signin
             </h2>
 
             <Formik
