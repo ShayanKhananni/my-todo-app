@@ -23,6 +23,44 @@ This application enables three main user flows:
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, Firebase Auth  
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB (Mongoose)  
+- **Database:** MongoDB (Mongoose)
+
+
+## ⚙️ Installation & Setup  
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/my-todo-app.git
+cd my-todo-app
+
+
+
+#🔑 Environment Variables  
+
+To run this project, you will need to create `.env` files in both **client/** and **backend/** folders.  
+
+---
+## 🌐 Frontend (`client/.env`)
+```env
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_BASE_URL=http://localhost:5000
 - **Storage:** Cloudinary  
-- **Authentication:** JWT, Firebase OAuth 
+- **Authentication:** JWT, Firebase OAuth
+
+
+ONGO=your_mongodb_connection_string
+
+REFRESH_TOKEN_SECRET=your_refresh_secret
+ACCESS_TOKEN_SECRET=your_access_secret
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+## 🌐 Frontend (`client/.env`)
+```env
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_BASE_URL=http://localhost:5000
+
+
+
