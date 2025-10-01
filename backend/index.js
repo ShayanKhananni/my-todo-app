@@ -6,7 +6,7 @@ import authRouter from "./routers/auth-router.js";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import todoRouter from "./routers/todo-router.js";
-import {v2 as cloudinary} from "cloudinary";
+import { v2 as cloudinary } from "cloudinary";
 
 
 dotenv.config();
@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://my-todo-app-72.vercel.app",
+    origin: "https://my-todo-app-sxhh.vercel.app/",
     // origin: "http://localhost:5173",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
