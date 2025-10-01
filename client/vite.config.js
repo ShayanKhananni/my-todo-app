@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://todo-backend-two-chi.vercel.app/api", 
+        target: "https://my-todo-app-phi-olive.vercel.app/api", 
         changeOrigin: true,
         secure: true, 
       },
