@@ -30,8 +30,12 @@ This application enables three main user flows:
 
 ### 1️⃣ Clone the Repository
 ``` bash
-git clone https://github.com/your-username/my-todo-app.git
-cd my-todo-app
+git clone https://github.com/your-username/my-todo-app.git 
+open client and backend folder seperately
+run npm install for both
+set the enviromental variables for client and backend
+run npm run dev for both
+check localhost on the client 
 ```
 
 ## 🔑 Environment Variables  
