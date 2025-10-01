@@ -34,24 +34,22 @@ git clone https://github.com/your-username/my-todo-app.git
 cd my-todo-app
 ```
 
-# 🔑 Environment Variables  
+## 🔑 Environment Variables  
 To run this project, you will need to create `.env` files in both **client/** and **backend/** folders.  
 
 
-## 🌐 Frontend (`client/.env`)
-
-```
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_BASE_URL=http://localhost:5000
-```
-
-## 🌐 Frontend (`client/.env`)
-```
-MONGO=your_mongodb_connection_string
-REFRESH_TOKEN_SECRET=your_refresh_secret
-ACCESS_TOKEN_SECRET=your_access_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+### 🌐 Frontend (`client/.env`)
+```env
+VITE_FIREBASE_API_KEY=your_firebase_api_key   # Firebase API key for authentication
+VITE_BASE_URL=http://localhost:5000           # Base URL of your backend server
 ```
 
+### ⚙️ Backend (`backend/.env`)
+```env
+MONGO=your_mongodb_connection_string             # MongoDB connection string (e.g., from MongoDB Atlas)
+REFRESH_TOKEN_SECRET=your_refresh_secret         # Secret used to sign refresh tokens (long-lived)
+ACCESS_TOKEN_SECRET=your_access_secret           # Secret used to sign access tokens (short-lived)
+CLOUDINARY_CLOUD_NAME=your_cloud_name            # Cloudinary account name
+CLOUDINARY_API_KEY=your_cloudinary_api_key       # Cloudinary API key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret # Cloudinary API secret
+```
