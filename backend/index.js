@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://my-todo-app-k5lq.vercel.app/",
+    origin: "https://my-todo-app-k5lq.vercel.app",
     // origin: "http://localhost:5173",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
@@ -37,7 +37,6 @@ app.use(express.json());
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/todo", todoRouter);
-
 
 
 app.use((err, req, res, next) => {
