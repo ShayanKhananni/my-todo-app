@@ -33,10 +33,7 @@ This application enables three main user flows:
 git clone https://github.com/your-username/my-todo-app.git
 cd my-todo-app
 
-
-
-#🔑 Environment Variables  
-
+# 🔑 Environment Variables  
 To run this project, you will need to create `.env` files in both **client/** and **backend/** folders.  
 
 ---
@@ -58,9 +55,7 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ## 🌐 Frontend (`client/.env`)
-```env
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_BASE_URL=http://localhost:5000
+```
 
 
 
